@@ -1,0 +1,45 @@
+.container{
+    background-color: white;
+    display: flex ;
+}
+
+.bio, .photo{
+    width: 50%;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.bio h2{
+    font-weight:500;
+}
+
+hr{
+    display: inline-block;
+    width: 152px;;
+}
+
+
+.padding{
+    padding: 10px;
+}
+
+.right-m{
+    margin-right:30px;
+}
+
+.light-p{
+    font-size:1rem;
+    font-weight: 200;
+    
+}
+
+.italic-p{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+}
+
+.signature{
+    float:right;
+}
+
