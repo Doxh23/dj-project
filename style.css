@@ -1,20 +1,40 @@
+body{
+    margin:0;
+    padding: 0;
+   
+}
+
+
+
+/* FLEX BIO */
 .container{
     background-color: white;
     display: flex ;
+    margin-left: 140px;
 }
 
-.bio, .photo{
-    width: 50%;
+/* flex bio items */
+.bio{
+    width: 567px;
     font-family: 'Poppins', sans-serif; 
+    
 }
+
+.photo {
+    width: 500px;
+}
+
+/* personnalisation bio*/
 
 .bio h2{
     font-weight:500;
+    font-size: 2rem;
 }
 
 hr{
     display: inline-block;
-    width: 152px;;
+    width: 230px;
+    color:#c4c4c4;
 }
 
 
@@ -22,12 +42,20 @@ hr{
     padding: 10px;
 }
 
+.logos{
+    font-size: 1.2rem;
+}
+
+.bottom{
+    margin-bottom: 30px;
+}
+
 .right-m{
     margin-right:30px;
 }
 
 .light-p{
-    font-size:1rem;
+    font-size:0.9rem;
     font-weight: 200;
     
 }
@@ -35,11 +63,48 @@ hr{
 .italic-p{
     font-style: italic;
     font-weight: 200;
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     letter-spacing: 0.1rem;
 }
 
 .signature{
     float:right;
+    margin-top: 10px;
 }
 
+.button{
+    background-color: #8121e0; /* Green */
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+/* personnalisation photo */
+
+.photo-bio{
+    float:right;
+}
+
+.photo img{
+    margin-top: 33px;
+    width: 418px;
+    height: 500px;
+}
+
+
+/* FLOAT */
+.clear{
+    clear:both; /* enlève le float */
+}
+
+.grey{
+    color:#c4c4c4;
+}
+
+/* filter: opacity(valeur entre 0 et 1) */
