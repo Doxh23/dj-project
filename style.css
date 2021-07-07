@@ -1,13 +1,14 @@
+/* Général */
+
 body{
     margin:0;
-    padding: 0;
-   
+    padding: 0;  
 }
 
-
+/* ---------------- */
 
 /* FLEX BIO */
-.container{
+.container-contact{
     background-color: white;
     display: flex ;
     margin-left: 140px;
@@ -68,7 +69,7 @@ hr{
 }
 
 .signature{
-    float:right;
+    margin-left: 365px;
     margin-top: 10px;
 }
 
@@ -97,11 +98,25 @@ hr{
     height: 500px;
 }
 
+/* --------------- */
+
+/* FLEX MUSIC */
+
+.music{
+    background-color: grey;
+}
+
+.music h2{
+    text-align: center;
+}
+
 
 /* FLOAT */
 .clear{
     clear:both; /* enlève le float */
 }
+
+/* COULEURS */
 
 .grey{
     color:#c4c4c4;
