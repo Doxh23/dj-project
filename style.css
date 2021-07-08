@@ -124,7 +124,7 @@ hr{
     text-align: center;
 }
 
-.music h2{
+.h2-title{
     display:inline-block;
     margin-top: 122px;
     margin-bottom: 76px;
@@ -138,7 +138,7 @@ hr{
     margin: auto;   
 }
 
-.music-item{
+.music-item, .release-item{
     flex-basis: 380px;
     margin-bottom: 96px;
     /*display: flex;*/
@@ -172,6 +172,22 @@ hr{
 }
 
 
+
+/* RELEASE */
+.container-release{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto;   
+}
+.item-release{
+    margin-right: 30px;
+}
+.item-release img{
+    width: 350px;
+}
+
+
 /* FLOAT */
 .clear{
     clear:both; /* enlève le float */
@@ -191,4 +207,12 @@ hr{
     /*display: inline-block;*/
     /*margin-top: 80px;*/
     
+}
+
+.margin-top{
+    margin-top: -70px;
+}
+
+.margin-right{
+    margin-right: 0;
 }
