@@ -16,23 +16,19 @@ main{
 }
 
 /* FLEX BIO */
+
+.contact{
+    margin-bottom: 120px;
+}
 .container-contact{
     display: flex ;
-    justify-content: center;
-    /*margin-left: 140px;
-    margin-bottom: 110px;*/
     max-width: 1140px;
-    align-items: center;
+    margin: auto;
 }
 
 /* flex bio items */
-.bio{
-    width: 567px;
-    
-}
-
-.photo {
-    width: 500px;
+.bio .photo{
+    width: 570px;
 }
 
 /* personnalisation bio*/
@@ -40,7 +36,7 @@ main{
 .bio h2{
     font-weight:500;
     font-size: 2rem;
-    margin-left: 0;
+    
 }
 
 hr{
@@ -82,6 +78,7 @@ hr{
 .signature{
     margin-left: 365px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .button{
@@ -109,8 +106,9 @@ hr{
 
 .photo img{
     margin-top: 33px;
-    width: 418px;
-    height: 500px;
+    margin-left: 70px;
+    width: 500px;
+    height: 526px;
 }
 
 /* --------------- */
@@ -134,17 +132,14 @@ hr{
 }
 
 .container-music{
-    display:inline-flex;
-    width: 1160px;
+    display:flex;
     flex-wrap: wrap;
-    margin-left: 126px;
-    margin-right: 150px;
-    justify-content: space-around;
-    
+    max-width: 1140px;
+    margin: auto;   
 }
 
 .music-item{
-    flex-basis: 360px;
+    flex-basis: 380px;
     margin-bottom: 96px;
     /*display: flex;*/
 }
@@ -163,6 +158,7 @@ hr{
 .music-p{
     margin-left: 70px;
     margin-top: -15px;
+    
 }
 
 .content{
