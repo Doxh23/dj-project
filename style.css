@@ -15,30 +15,40 @@ main {
 .container-contact {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1140px;
-    margin: auto;
+    max-width: 480px;
+    /*margin: auto;*/
+    justify-content: center;
+    align-items: center;
+    
 }
 /* flex contact items */
 .item-contact {
-    width: 570px;
+    max-width: 240px;
+    
 }
 /* personnalisation contact*/
 .item-contact h2 {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: 5px;
 }
 hr {
     display: inline-block;
-    width: 230px;
+    width: 130px;
     color: #c4c4c4;
 }
 .logos {
-    font-size: 1.2rem;
+    font-size: 0.95rem;  
+    display: inline-block;
 }
+
 .signature {
-    margin-left: 365px;
+    margin-left: 68px;
     margin-top: 10px;
     margin-bottom: 20px;
+    width: 174px;
+    height: 50px;
 }
 .button {
     background-color: #8121e0;
@@ -58,9 +68,8 @@ hr {
 /* personnalisation photo */
 .photo-bio {
     margin-top: 33px;
-    margin-left: 70px;
-    width: 500px;
-    height: 526px;
+    /*margin-left: 70px;*/
+    max-width: 240px;
 }
 /* --------------- */
 /* FLEX MUSIC */
@@ -147,10 +156,10 @@ hr {
 /* filter: opacity(valeur entre 0 et 1) */
 /* MARGINS */
 .bottom {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .right-m {
-    margin-right: 30px;
+    margin-right: 15px;
 }
 .margin-top {
     margin-top: -70px;
@@ -158,19 +167,31 @@ hr {
 .margin-right {
     margin-right: 0;
 }
+
+.small-margin-r{
+    margin-right: 70px;
+}
 /* PARAGRAPHES STYLES */
 .light-p {
-    font-size: 0.9rem;
+    margin-top: -25px;
+    font-size: 0.65rem;
     font-weight: 200;
+    margin-bottom: -5px;
 }
 .italic-p {
     font-style: italic;
     font-weight: 200;
-    font-size: 1.10rem;
+    font-size: 0.80rem;
     letter-spacing: 0.1rem;
 }
 .padding {
-    padding: 10px;
+    padding: 12px;
+}
+
+.contact-p{
+    font-size:0.95rem;
+    margin-top: 5px;
+    margin-bottom: -15px;
 }
 
 
@@ -515,7 +536,7 @@ hr {
         margin-bottom: 30px;
     }
     .right-m {
-        margin-right: 30px;
+        margin-right: 0px;
     }
     .margin-top {
         margin-top: -70px;
