@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-size: 62.5%;
+    font-family: Poppins;
+}
+
+.discography__discography {
+    align-content: center;
+    justify-content: center;
+    width: 90vw;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "Album1 Album2 Album3" " Album4 Album5 Album6";
+    grid-gap: 5px;
+}
+
+.Discography__album img {
+    width: 25vw;
+}
+
+.Discography__album {
+    width: 25vw;
+    text-align: center;
+}
+
+#Album1 {
+    grid-area: Album1;
+}
+
+#Album2 {
+    grid-area: Album2;
+}
+
+#Album3 {
+    grid-area: Album3;
+}
+
+#Album4 {
+    grid-area: Album4;
+}
+
+#Album5 {
+    grid-area: Album5;
+}
+
+#Album6 {
+    grid-area: Album6;
+}
+
+.Discography__album h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+}
+
+.Discography__album h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .discography__discography {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "Album1 Album2" "Album3 Album4" "Album5 Album6";
+        grid-gap: 20px;
+    }
+    .Discography__album img {
+        margin-top: 20px;
+        width: 40vw;
+    }
+    .Discography__album {
+        width: 40vw;
+    }
+    #Album1 {
+        grid-area: Album1;
+    }
+    #Album2 {
+        grid-area: Album2;
+    }
+    #Album3 {
+        grid-area: Album3;
+    }
+    #Album4 {
+        grid-area: Album4;
+    }
+    #Album5 {
+        grid-area: Album5;
+    }
+    #Album6 {
+        grid-area: Album6;
+    }
+    .Discography__album h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        margin: 0px;
+    }
+    .Discography__album h3 {
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+
+/*
+
+@media only screen and (max-width: 320px) {
+    .Discography__discography {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .Discography__album img {
+        width: 90vw;
+        margin-top: 30px;
+        margin: auto;
+    }
+    .Discography__album {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Discography__album h2 {
+        margin-top: 1.8rem;
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .Discography__album h3 {
+        margin-top: 0.2rem;
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+
+*/
