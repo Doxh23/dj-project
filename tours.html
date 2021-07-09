@@ -7,22 +7,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="fontawesome" href="./fontawesome/css/all.css">
+    <link rel="fontawesome" href="./fontawesome/css/solid.css">
+    <link rel="fontawesome" href="./fontawesome/css/brands.css">
+
+    <script src="script.js"></script>
+
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <img src="./assets/banner-img.jpg">
-        <h2>TOUR SCHEDULE</h2>
-        <h3>HOME &#9679; TOUR SCHEDULE</h3>
-    </header>
-    <main>
-        <section class="schedule"></section>
-    </main>
-    <footer>
+    <div class="conteneur">
+        <header class="header">
 
-    </footer>
+        </header>
+        <main>
+            <section class="schedule">
 
+                <div class="schedule__bar">
+                    <button class="schedule__button" onclick="openMonth('March')">March</button>
+                    <button class="schedule__button" onclick="openMonth('April')">April</button>
+                    <button class="schedule__button" onclick="openMonth('May')">May</button>
+                </div>
+
+                <div id="March" class="schedule__month">
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"><span class="dot"></span></span>
+                        <h3>March 13, 2019</h3>
+                        <h2>Encore Beach Club, Las Vegas</h2>
+                        <p>DJ Angerone will visit one of the most famous night club in Las Vegas in March to play his latest tracks and the greatest Trance hits as a part of his US tour.</p>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>March 21, 2019</h3>
+                        <h2>Soundscape Weekender Festival, Coventry</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>March 25, 2019</h3>
+                        <h2>Barcelona Beach Festival, Barcelona</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>March 29, 2019</h3>
+                        <h2>Barclaycard Arena, Hamburg</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>March 30, 2019</h3>
+                        <h2>Unipol Arena, Bologna</h2>
+                    </div>
+                </div>
+
+                <div id="April" class="schedule__month" style="display:none">
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>April 1, 2019</h3>
+                        <h2>Ryugyong Hotel, Pyongyan</h2>
+                        <p>Exclusively for our glorious leader, DJ Angerone will perform in the Best-Korea. The new album written, directed and performed by Kim Jong-Un "the best" will there be broadcasted.</p>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>April 12, 2019</h3>
+                        <h2>Mongoose Versus Cobra, Kuala Lumpur</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>April 15, 2019</h3>
+                        <h2>Pour Decisions, Tijuan</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>April 24, 2019</h3>
+                        <h2>Blue Oyster Bar, Hutson</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>April 28, 2019</h3>
+                        <h2>No Bueno, Acapulco</h2>
+                    </div>
+                </div>
+
+                <div id="May" class="schedule__month" style="display:none">
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>May 3, 2019</h3>
+                        <h2>Los Locos, Caracas</h2>
+                        <p>Should DJ Angerone survive this gangster stronghold, he will defenetly have plenty to tell and some tattos to show for it. Otherwise if he dies well... he dies</p>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>May 10, 2019</h3>
+                        <h2>Encore Beach Club, Las Vegas</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>May 16, 2019</h3>
+                        <h2>Encore Beach Club, Las Vegas</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>May 24, 2019</h3>
+                        <h2>Encore Beach Club, Las Vegas</h2>
+                    </div>
+                    <div class="schedule__day">
+                        <a class="schedule__link" href="https://paypal.me/LaurentBrajkovic?locale.x=fr_FR">Buy Tickets >></a>
+                        <span class="circle"></span>
+                        <h3>May 30, 2019</h3>
+                        <h2>Encore Beach Club, Las Vegas</h2>
+                    </div>
+                </div>
+
+            </section>
+            <footer class="footer"> </footer>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
 </body>
 
 </html>
