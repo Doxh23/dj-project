@@ -229,7 +229,7 @@ hr {
     }
     /* FLEX CONTACT */
     .contact {
-        margin-bottom: 120px;
+        margin-bottom: 76px;
     }
     .container-contact {
         display: flex;
@@ -258,20 +258,22 @@ hr {
         font-size: 1.2rem;
     }
     .signature {
-        margin-left: 365px;
+        margin-left: 220px;
         margin-top: 10px;
         margin-bottom: 20px;
+        width: 174px;
+        height: 50px;
     }
     .button {
         background-color: #8121e0;
         /* Green */
         border-radius: 5px;
         color: white;
-        padding: 15px 30px;
+        padding: 14px 28px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
     }
     .margin-left {
@@ -280,9 +282,7 @@ hr {
     /* personnalisation photo */
     .photo-bio {
         margin-top: 33px;
-        margin-left: 70px;
-        width: 500px;
-        height: 526px;
+        max-width: 384px;
     }
     /* --------------- */
     /* FLEX MUSIC */
@@ -296,22 +296,23 @@ hr {
     .h2-title {
         display: inline-block;
         margin-bottom: 76px;
-        font-size: 2.3rem;
-        margin-top: 122px;
+        font-size: 1.4rem;
+        margin-top: 84px;
     }
     .container-music {
         display: flex;
         flex-wrap: wrap;
-        max-width: 1140px;
-        margin: auto;
+        max-width: 768px;
+        justify-content: center;
+        align-items: center;
     }
     .music-item, .release-item {
-        flex-basis: 380px;
-        margin-bottom: 96px;
+        flex-basis: 345px;
+        margin-bottom: 40px;
         /*display: flex;*/
     }
     .music-title {
-        margin-left: 70px;
+        margin-left: 100px;
         margin-top: -80px;
     }
     .music-title h3, .release-title {
@@ -319,8 +320,9 @@ hr {
         font-size: 1.4rem;
     }
     .music-p {
-        margin-left: 70px;
+        margin-left: 100px;
         margin-top: -15px;
+        
     }
     .content {
         display: flex;
@@ -328,7 +330,9 @@ hr {
         justify-content: center;
     }
     .music-logo {
-        font-size: 2.3rem;
+        font-size: 2rem;
+        margin-top: 5px;
+        margin-left: 30px;
     }
     /* ------------ */
     /*  FLEX RELEASE */
@@ -388,6 +392,10 @@ hr {
     .light-p {
         font-size: 0.55rem;
         font-weight: 200;
+    }
+
+    .light-p-size{
+        font-size: 1rem;
     }
 
     .p-tablet{
