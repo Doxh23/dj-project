@@ -224,7 +224,7 @@ hr {
     }
     main {
         margin: auto;
-        max-width: 100%;
+        /*max-width: 100%;*/
         font-family: 'Poppins', sans-serif;
     }
     /* FLEX CONTACT */
@@ -234,17 +234,20 @@ hr {
     .container-contact {
         display: flex;
         flex-wrap: wrap;
-        max-width: 1140px;
-        margin: auto;
+        max-width: 768px;
+        /*margin: auto;*/
+        justify-content: center;
+        align-items: center;
     }
     /* flex contact items */
     .item-contact {
-        width: 570px;
+        width: 384px;
     }
     /* personnalisation contact*/
     .item-contact h2 {
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
     }
     hr {
         display: inline-block;
@@ -369,7 +372,7 @@ hr {
         margin-bottom: 30px;
     }
     .right-m {
-        margin-right: 30px;
+        margin-right: 12px;
     }
     .margin-top {
         margin-top: -70px;
@@ -377,21 +380,30 @@ hr {
     .margin-right {
         margin-right: 0;
     }
+
+    .logos-position{
+        margin-top: -20px;
+    }
     /* PARAGRAPHES STYLES */
     .light-p {
-        font-size: 0.9rem;
+        font-size: 0.55rem;
         font-weight: 200;
+    }
+
+    .p-tablet{
+        margin-top:-15px;
     }
     .italic-p {
         font-style: italic;
         font-weight: 200;
-        font-size: 1.10rem;
+        font-size: 0.57rem;
         letter-spacing: 0.1rem;
     }
     
     .padding {
         padding: 10px;
     }
+    
     
     
 }
