@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Poppins;
+}
+
+.Home__Fanbase {
+    margin-top: 50px;
+    display: flex;
+    width: 100vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bg-circle.png") no-repeat center #212121;
+    background-size: 100vw;
+    height: 500px;
+    color: #FFFFFF;
+}
+
+.Home__Fanbase H2 {
+    font-size: 2rem;
+}
+
+.Home__Fanbase H3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.Home__Fanbase i {
+    font-size: 2.5rem;
+    color: #6122B3;
+}
+
+.Fanbase__Pictures {
+    width: 60%;
+    padding: 30px 0px 80px 80px;
+}
+
+.Pictures__1 {
+    width: 30%;
+    border-radius: 2px;
+}
+
+.Pictures__2 {
+    width: 40%;
+    border-radius: 2px;
+}
+
+.Pictures__3 {
+    width: 50%;
+    border-radius: 2px;
+}
+
+.Pictures__4 {
+    width: 30%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.Pictures__5 {
+    width: 30%;
+    border-radius: 2px;
+}
+
+.Pictures__6 {
+    width: 45%;
+    border-radius: 2px;
+}
+
+.Fanbase__FText {
+    width: 40%;
+    padding: 80px 80px 50px 80px;
+}
+
+.FText__Title {
+    padding-right: 40px;
+}
+
+.FText__Body {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+
+.FText__1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.FText__2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.FText__3 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.FText__Icon {
+    align-self: center;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.FText__Text {
+    display: flex;
+    flex-direction: column;
+}
