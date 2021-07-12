@@ -1,8 +1,13 @@
+*{
+    font-size: 60%;
+}
+
 @media only screen and (max-width: 480px){
 /* Général */
 body{
     margin: 0;
     padding:0;
+    
 }
 main {
     margin: auto;
@@ -30,7 +35,7 @@ main {
 /* personnalisation contact*/
 .item-contact h2 {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2rem;
     display: inline-block;
     margin-bottom: 5px;
 }
@@ -64,7 +69,7 @@ hr {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 0.7rem;
+    font-size: 1.16rem;
     font-weight: 600;
     margin-top: -15px;
 }
@@ -88,7 +93,7 @@ hr {
 .h2-title {
     display: inline-block;
     margin-bottom: 30px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-top: 57px;
 }
 .container-music {
@@ -103,13 +108,10 @@ hr {
     text-align: center;
     /*display: flex;*/
 }
-.music-title {
-    /*margin-left: 70px;*/
-    /*margin-top: -80px;*/
-}
+
 .music-title h3, .release-title {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 2.33rem;
     margin-bottom: 30px;
     margin-top: 15px;
 }
@@ -118,11 +120,11 @@ hr {
 }
 
 .music-p{
-    font-size: 0.97rem ;
+    font-size: 1.61rem ;
 }
 
 .music-logo {
-    font-size: 2.3rem;
+    font-size: 3.83rem;
     color:#8121e0;
 }
 /* ------------ */
@@ -153,7 +155,7 @@ hr {
 .release-p2 {
     text-align: center;
     margin-top: -20px;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     letter-spacing: 0.1rem;
 }
 /* FLOAT */
@@ -194,7 +196,7 @@ hr {
     margin: top -10px;
     font-style: italic;
     font-weight: 200;
-    font-size: 0.80rem;
+    font-size: 1.08rem;
     letter-spacing: 0.1rem;
 }
 .padding {
@@ -209,7 +211,7 @@ hr {
 
 .small-p{
     margin-top: -25px;
-    font-size: 0.97rem;
+    font-size: 1.58rem;
     font-weight: 200;
     margin-bottom: 14px;
     text-align: center;
@@ -217,7 +219,7 @@ hr {
 
 
 .light-p-size{
-    font-size: 0.97rem;
+    font-size: 1.61rem;
 }
 
 
@@ -261,7 +263,7 @@ hr {
     /* personnalisation contact*/
     .item-contact h2 {
         font-weight: 500;
-        font-size: 1.4rem;
+        font-size: 2.3rem;
         margin-bottom: 10px;
     }
     hr {
@@ -270,7 +272,7 @@ hr {
         color: #c4c4c4;
     }
     .logos {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .filter{
@@ -300,7 +302,7 @@ hr {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 0.8rem;
+        font-size: 1.33rem;
         font-weight: 600;
     }
     .margin-left {
@@ -324,7 +326,7 @@ hr {
     .h2-title {
         display: inline-block;
         margin-bottom: 76px;
-        font-size: 1.4rem;
+        font-size: 2.33rem;
         margin-top: 84px;
     }
     .container-music {
@@ -345,7 +347,7 @@ hr {
     }
     .music-title h3, .release-title {
         font-weight: 400;
-        font-size: 1.4rem;
+        font-size: 2.33rem;
     }
     .music-p {
         margin-left: 100px;
@@ -358,7 +360,7 @@ hr {
         justify-content: center;
     }
     .music-logo {
-        font-size: 2rem;
+        font-size: 3.33rem;
         margin-top: 5px;
         margin-left: 30px;
         color:#8121e0;
@@ -401,7 +403,7 @@ hr {
     .release-p2 {
         text-align: center;
         margin-top: -20px;
-        font-size: 0.75rem;
+        font-size: 1.25rem;
         letter-spacing: 0.1rem;
     }
     /* FLOAT */
@@ -419,7 +421,7 @@ hr {
         margin-bottom: 30px;
     }
     .right-m {
-        margin-right: 12px;
+        margin-right: 22px;
     }
 
     .item-release-2{
@@ -437,12 +439,12 @@ hr {
     }
     /* PARAGRAPHES STYLES */
     .light-p {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         font-weight: 200;
     }
 
     .light-p-size{
-        font-size: 1rem;
+        font-size: 1.50rem;
     }
 
     .p-tablet{
@@ -451,7 +453,7 @@ hr {
     .italic-p {
         font-style: italic;
         font-weight: 200;
-        font-size: 1.1rem;
+        font-size: 1.95rem;
         letter-spacing: 0.1rem;
     }
     
@@ -460,11 +462,22 @@ hr {
     }
 
     .small-p{
-        font-size: 1rem;
+        font-size: 1.65rem;
         font-weight: 200;
         text-align: center;
     }
-    
+
+    .contact-p{
+        font-size:3.2rem;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        
+    }
+
+   
+    .content-1{
+        font-size: 1.65rem;
+    }
     
     
 }
@@ -478,15 +491,19 @@ hr {
     body {
         margin: 0;
         padding: 0;
+        font-family: 'Poppins', sans-serif;
     }
     main {
         margin: auto;
         max-width: 100%;
-        font-family: 'Poppins', sans-serif;
+        
     }
+
+    
     /* FLEX CONTACT */
     .contact {
         margin-bottom: 120px;
+        margin-top: 113px;
     }
     .container-contact {
         display: flex;
@@ -502,7 +519,7 @@ hr {
     /* personnalisation contact*/
     .item-contact h2 {
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 3.83rem;
     }
     hr {
         display: inline-block;
@@ -510,7 +527,7 @@ hr {
         color: #c4c4c4;
     }
     .logos {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .filter{
@@ -530,7 +547,7 @@ hr {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 1rem;
+        font-size: 1.66rem;
         font-weight: 600;
     }
     .margin-left {
@@ -555,7 +572,7 @@ hr {
     .h2-title {
         display: inline-block;
         margin-bottom: 76px;
-        font-size: 2.3rem;
+        font-size: 3.83rem;
         margin-top: 122px;
     }
     .container-music {
@@ -575,7 +592,7 @@ hr {
     }
     .music-title h3, .release-title {
         font-weight: 400;
-        font-size: 1.4rem;
+        font-size: 2.33rem;
     }
     .music-p {
         margin-left: 70px;
@@ -587,7 +604,7 @@ hr {
         justify-content: center;
     }
     .music-logo {
-        font-size: 2.3rem;
+        font-size: 3.83rem;
         color:#8121e0;
     }
     /* ------------ */
@@ -615,8 +632,8 @@ hr {
     .release-p2 {
         text-align: center;
         margin-top: -20px;
-        font-size: 0.75rem;
-        letter-spacing: 0.1rem;
+        font-size: 1.25rem;
+        letter-spacing: 0.16rem;
     }
     /* FLOAT */
     .clear {
@@ -633,7 +650,7 @@ hr {
         margin-bottom: 30px;
     }
     .right-m {
-        margin-right: 30px;
+        margin-right: 37px;
     }
     .margin-top {
         margin-top: -70px;
@@ -643,24 +660,35 @@ hr {
     }
     /* PARAGRAPHES STYLES */
     .light-p {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         font-weight: 200;
     }
     .italic-p {
         font-style: italic;
         font-weight: 200;
-        font-size: 1.10rem;
-        letter-spacing: 0.1rem;
+        font-size: 1.85rem;
+        letter-spacing: 0.16rem;
     }
     .padding {
         padding: 10px;
     }
     
     .small-p{
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         padding: 2px;
         font-weight: 200;
         text-align: center;
+    }
+
+    .contact-p{
+        font-size:3rem;
+        margin-top: 5px;
+        margin-bottom: 13px;
+        
+    }
+
+    .content-1{
+        font-size: 1.5rem;
     }
 
     .content-1::after{
