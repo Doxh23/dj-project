@@ -136,13 +136,7 @@ footer{
         }
     }
     @media only screen and (min-width: 360px) and (max-width: 780px){
-    
-        .gallery__gallery{
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(4,23vw);
         
-        }
-        }
         .footer-nav {
             font-size: 1.3rem;
             font-weight: 500;
@@ -157,4 +151,5 @@ footer{
             width: 200px;
             height: 35px;
             margin-top: 120px;
-            margin-bottom: 50px
+            margin-bottom: 50px }
+        }
