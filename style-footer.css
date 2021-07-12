@@ -90,7 +90,7 @@ footer{
         cursor: pointer;
     }
 
-    @media only screen and (max-width: 360px){
+    @media only screen and (max-width: 480px){
         .gallery__gallery{
             grid-template-columns: repeat(1,1fr);
             grid-template-rows: repeat(12,70vw);
@@ -135,7 +135,7 @@ footer{
            
         }
     }
-    @media only screen and (min-width: 360px) and (max-width: 780px){
+    @media only screen and (min-width: 480px) and (max-width: 780px){
         
         .footer-nav {
             font-size: 1.3rem;
