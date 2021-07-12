@@ -1,5 +1,4 @@
 footer{
-    
     display: flex;
     flex-direction: column;
 }
@@ -91,7 +90,7 @@ footer{
         cursor: pointer;
     }
 
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 360px){
         .gallery__gallery{
             grid-template-columns: repeat(1,1fr);
             grid-template-rows: repeat(12,70vw);
@@ -136,7 +135,7 @@ footer{
            
         }
     }
-    @media only screen and (min-width: 480px) and (max-width: 768px){
+    @media only screen and (min-width: 360px) and (max-width: 780px){
     
         .gallery__gallery{
             grid-template-columns: repeat(3,1fr);
@@ -158,5 +157,5 @@ footer{
             width: 200px;
             height: 35px;
             margin-top: 120px;
-            margin-bottom: 50px;
+            margin-bottom: 50px
         }

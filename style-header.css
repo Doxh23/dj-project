@@ -219,7 +219,7 @@ header{
 
 }
 
-header li {
+header .nav-header li, header .title-nav li {
 list-style-type: none;
 display: inline;
 font-size: 1.5rem;
