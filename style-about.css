@@ -1,237 +1,220 @@
-*{
+* {
     font-size: 60%;
-}
-
-@media only screen and (max-width: 480px){
-/* Général */
-body{
-    margin: 0;
-    padding:0;
-    
-}
-main {
-    margin: auto;
-    /*max-width: 100%;*/
     font-family: 'Poppins', sans-serif;
 }
-/* FLEX CONTACT */
-.contact {
-    margin-bottom: 58px;
-}
-.container-contact {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 480px;
-    /*margin: auto;*/
-    justify-content: center;
-    align-items: center;
-    
-}
-/* flex contact items */
-.item-contact {
-    max-width: 240px;
-    
-}
-/* personnalisation contact*/
-.item-contact h2 {
-    font-weight: 500;
-    font-size: 2rem;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-hr {
-    display: inline-block;
-    width: 130px;
-    color: #c4c4c4;
-}
-.logos {
-    font-size: 0.95rem;  
-    display: inline-block;
+
+@media only screen and (max-width: 480px) {
+    /* Général */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        margin: auto;
+
+        /*max-width: 100%;*/
+    }
+    /* FLEX CONTACT */
+    .contact {
+        margin-bottom: 58px;
+    }
+    .container-contact {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 480px;
+        /*margin: auto;*/
+        justify-content: center;
+        align-items: center;
+    }
+    /* flex contact items */
+    .item-contact {
+        max-width: 240px;
+    }
+    /* personnalisation contact*/
+    .item-contact h2 {
+        font-weight: 500;
+        font-size: 2.5rem;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    hr {
+        display: inline-block;
+        width: 130px;
+        color: #c4c4c4;
+    }
+    .logos {
+        font-size: 1.58rem;
+        display: inline-block;
+    }
+    .filter {
+        filter: opacity(0.3);
+    }
+    .signature {
+        margin-left: 68px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 174px;
+        height: 50px;
+    }
+    .button {
+        background-color: #8121e0;
+        /* Green */
+        border-radius: 5px;
+        color: white;
+        padding: 15px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.16rem;
+        font-weight: 600;
+        margin-top: -15px;
+    }
+    .margin-left {
+        margin-left: 0;
+    }
+    /* personnalisation photo */
+    .photo-bio {
+        margin-top: 33px;
+        max-width: 240px;
+    }
+    /* --------------- */
+    /* FLEX MUSIC */
+    .music {
+        background-color: #f5f5f5;
+        background-image: url("assets/bg-circle-2.png");
+    }
+    .center {
+        text-align: center;
+    }
+    .h2-title {
+        display: inline-block;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        margin-top: 57px;
+    }
+    .container-music {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 480px;
+        margin: auto;
+    }
+    .music-item, .release-item {
+        flex-basis: 480px;
+        margin-bottom: 50px;
+        text-align: center;
+        /*display: flex;*/
+    }
+    .music-title h3, .release-title {
+        font-weight: 400;
+        font-size: 2.33rem;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .music-div-p {
+        margin-top: -15px;
+    }
+    .music-p {
+        font-size: 1.61rem;
+    }
+    .music-logo {
+        font-size: 3.83rem;
+        color: #8121e0;
+    }
+    /* ------------ */
+    /*  FLEX RELEASE */
+    .container-release {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 480px;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .item-release {
+        /*margin-right: 30px;*/
+        /*margin-bottom: 170px;*/
+        text-align: center;
+    }
+    .item-release img {
+        width: 325px;
+        height: 355px;
+    }
+    .release-title {
+        text-align: center;
+    }
+    .release-p1 {
+        margin-bottom: 65px;
+    }
+    .release-p2 {
+        text-align: center;
+        margin-top: -20px;
+        font-size: 1.25rem;
+        letter-spacing: 0.1rem;
+    }
+    /* FLOAT */
+    .clear {
+        clear: both;
+        /* enlève le float */
+    }
+    /* COULEURS */
+    .grey {
+        color: #c4c4c4;
+    }
+    /* filter: opacity(valeur entre 0 et 1) */
+    /* MARGINS */
+    .bottom {
+        margin-bottom: 40px;
+    }
+    .right-m {
+        margin-right: 10px;
+    }
+    .margin-top {
+        margin-top: -70px;
+    }
+    .margin-right {
+        margin-right: 0;
+    }
+    .small-margin-r {
+        margin-right: 120px;
+    }
+    /* PARAGRAPHES STYLES */
+    .light-p {
+        margin-top: -25px;
+        font-size: 1.1rem;
+        font-weight: 200;
+        margin-bottom: 14px;
+    }
+    .italic-p {
+        margin-top: 5px;
+        font-style: italic;
+        font-weight: 200;
+        font-size: 1.45rem;
+        letter-spacing: 0.1rem;
+    }
+    .padding {
+        padding: 12px;
+    }
+    .contact-p {
+        font-size: 1.8rem;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .small-p {
+        margin-top: -25px;
+        font-size: 1.62rem;
+        font-weight: 200;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+    .light-p-size {
+        font-size: 1.61rem;
+    }
+    .content-1 {
+        font-size: 1.62rem;
+    }
 }
 
-.filter{
-    filter:opacity(0.3);
-}
-
-.signature {
-    margin-left: 68px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 174px;
-    height: 50px;
-}
-.button {
-    background-color: #8121e0;
-    /* Green */
-    border-radius: 5px;
-    color: white;
-    padding: 15px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.16rem;
-    font-weight: 600;
-    margin-top: -15px;
-}
-.margin-left {
-    margin-left: 0;
-}
-/* personnalisation photo */
-.photo-bio {
-    margin-top: 33px;
-    max-width: 240px;
-}
-/* --------------- */
-/* FLEX MUSIC */
-.music {
-    background-color: #f5f5f5;
-    background-image: url("assets/bg-circle-2.png");
-}
-.center {
-    text-align: center;
-}
-.h2-title {
-    display: inline-block;
-    margin-bottom: 30px;
-    font-size: 2.5rem;
-    margin-top: 57px;
-}
-.container-music {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 480px;
-    margin: auto;
-}
-.music-item, .release-item {
-    flex-basis: 480px;
-    margin-bottom: 50px;
-    text-align: center;
-    /*display: flex;*/
-}
-
-.music-title h3, .release-title {
-    font-weight: 400;
-    font-size: 2.33rem;
-    margin-bottom: 30px;
-    margin-top: 15px;
-}
-.music-div-p {
-    margin-top: -15px;
-}
-
-.music-p{
-    font-size: 1.61rem ;
-}
-
-.music-logo {
-    font-size: 3.83rem;
-    color:#8121e0;
-}
-/* ------------ */
-/*  FLEX RELEASE */
-.container-release {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 480px;
-    margin: auto;
-    justify-content: center;
-    margin-bottom: 25px;
-}
-.item-release {
-    /*margin-right: 30px;*/
-    /*margin-bottom: 170px;*/
-    text-align: center;
-}
-.item-release img {
-    width: 325px;
-    height: 355px;
-}
-.release-title {
-    text-align: center;
-}
-.release-p1 {
-    margin-bottom: 65px;
-}
-.release-p2 {
-    text-align: center;
-    margin-top: -20px;
-    font-size: 1.25rem;
-    letter-spacing: 0.1rem;
-}
-/* FLOAT */
-.clear {
-    clear: both;
-    /* enlève le float */
-}
-/* COULEURS */
-.grey {
-    color: #c4c4c4;
-}
-/* filter: opacity(valeur entre 0 et 1) */
-/* MARGINS */
-.bottom {
-    margin-bottom: 35px;
-}
-.right-m {
-    margin-right: 10px;
-}
-.margin-top {
-    margin-top: -70px;
-}
-.margin-right {
-    margin-right: 0;
-}
-
-.small-margin-r{
-    margin-right: 70px;
-}
-/* PARAGRAPHES STYLES */
-.light-p {
-    margin-top: -25px;
-    font-size: 0.65rem;
-    font-weight: 200;
-    margin-bottom: 14px;
-}
-.italic-p {
-    margin: top -10px;
-    font-style: italic;
-    font-weight: 200;
-    font-size: 1.08rem;
-    letter-spacing: 0.1rem;
-}
-.padding {
-    padding: 12px;
-}
-
-.contact-p{
-    font-size:0.95rem;
-    margin-top: 5px;
-    margin-bottom: -15px;
-}
-
-.small-p{
-    margin-top: -25px;
-    font-size: 1.58rem;
-    font-weight: 200;
-    margin-bottom: 14px;
-    text-align: center;
-}
-
-
-.light-p-size{
-    font-size: 1.61rem;
-}
-
-
-}
-
-
-
-
-
-
-
-@media only screen and (min-width: 480px) and (max-width: 768px){
+@media only screen and (min-width: 480px) and (max-width: 768px) {
     /* Général */
     body {
         margin: 0;
@@ -240,19 +223,19 @@ hr {
     main {
         margin: auto;
         /*max-width: 100%;*/
-        font-family: 'Poppins', sans-serif;
+        
     }
     /* FLEX CONTACT */
     .contact {
         margin-bottom: 76px;
+        margin-top: 83px;
     }
     .container-contact {
         display: flex;
         flex-wrap: wrap;
-        
         max-width: 768px;
         /*margin: auto;*/
-        justify-content:center;
+        justify-content: center;
         align-items: center;
     }
     /* flex contact items */
@@ -274,12 +257,10 @@ hr {
     .logos {
         font-size: 2rem;
     }
-
-    .filter{
-        filter:opacity(0.3);
+    .filter {
+        filter: opacity(0.3);
     }
-
-    .flex-signature{
+    .flex-signature {
         display: flex;
         max-width: 680px;
         justify-content: right;
@@ -291,7 +272,6 @@ hr {
         margin-bottom: 10px;
         width: 185px;
         height: 50px;
-
     }
     .button {
         background-color: #8121e0;
@@ -352,7 +332,6 @@ hr {
     .music-p {
         margin-left: 100px;
         margin-top: -15px;
-        
     }
     .content {
         display: flex;
@@ -363,7 +342,7 @@ hr {
         font-size: 3.33rem;
         margin-top: 5px;
         margin-left: 30px;
-        color:#8121e0;
+        color: #8121e0;
     }
     /* ------------ */
     /*  FLEX RELEASE */
@@ -373,22 +352,17 @@ hr {
         max-width: 768px;
         margin-left: 45px;
         margin-right: 45px;
-        
         /*justify-content: center;
         align-items: center;*/
-        
     }
-
-    
     .item-release {
         margin-right: 30px;
         margin-bottom: 43px;
         max-width: 350px;
     }
-    
-   .item-release-3{
-       margin-right: auto;
-   }
+    .item-release-3 {
+        margin-right: auto;
+    }
     .item-release img {
         width: 320px;
     }
@@ -423,8 +397,7 @@ hr {
     .right-m {
         margin-right: 22px;
     }
-
-    .item-release-2{
+    .item-release-2 {
         margin-right: 0;
     }
     .margin-top {
@@ -433,8 +406,7 @@ hr {
     .margin-right {
         margin-right: 0;
     }
-
-    .logos-position{
+    .logos-position {
         margin-top: -20px;
     }
     /* PARAGRAPHES STYLES */
@@ -442,13 +414,11 @@ hr {
         font-size: 1.5rem;
         font-weight: 200;
     }
-
-    .light-p-size{
+    .light-p-size {
         font-size: 1.50rem;
     }
-
-    .p-tablet{
-        margin-top:-15px;
+    .p-tablet {
+        margin-top: -15px;
     }
     .italic-p {
         font-style: italic;
@@ -456,50 +426,35 @@ hr {
         font-size: 1.95rem;
         letter-spacing: 0.1rem;
     }
-    
     .padding {
         padding: 10px;
     }
-
-    .small-p{
-        font-size: 1.65rem;
+    .small-p {
+        font-size: 1.62rem;
         font-weight: 200;
         text-align: center;
     }
-
-    .contact-p{
-        font-size:3.2rem;
+    .contact-p {
+        font-size: 3.2rem;
         margin-top: 5px;
         margin-bottom: 25px;
-        
     }
-
-   
-    .content-1{
-        font-size: 1.65rem;
+    .content-1 {
+        font-size: 1.62rem;
     }
-    
-    
 }
-
-
-
-
 
 @media only screen and (min-width: 768px) {
     /* Général */
     body {
         margin: 0;
         padding: 0;
-        font-family: 'Poppins', sans-serif;
+        
     }
     main {
         margin: auto;
         max-width: 100%;
-        
     }
-
-    
     /* FLEX CONTACT */
     .contact {
         margin-bottom: 120px;
@@ -510,7 +465,6 @@ hr {
         flex-wrap: wrap;
         max-width: 1140px;
         margin: auto;
-       
     }
     /* flex contact items */
     .item-contact {
@@ -529,9 +483,8 @@ hr {
     .logos {
         font-size: 2rem;
     }
-
-    .filter{
-        filter:opacity(0.3);
+    .filter {
+        filter: opacity(0.3);
     }
     .signature {
         margin-left: 365px;
@@ -605,7 +558,7 @@ hr {
     }
     .music-logo {
         font-size: 3.83rem;
-        color:#8121e0;
+        color: #8121e0;
     }
     /* ------------ */
     /*  FLEX RELEASE */
@@ -614,7 +567,6 @@ hr {
         flex-wrap: wrap;
         max-width: 1140px;
         margin: auto;
-        
     }
     .item-release {
         margin-right: 30px;
@@ -672,26 +624,21 @@ hr {
     .padding {
         padding: 10px;
     }
-    
-    .small-p{
+    .small-p {
         font-size: 1.5rem;
         padding: 2px;
         font-weight: 200;
         text-align: center;
     }
-
-    .contact-p{
-        font-size:3rem;
+    .contact-p {
+        font-size: 3rem;
         margin-top: 5px;
         margin-bottom: 13px;
-        
     }
-
-    .content-1{
+    .content-1 {
         font-size: 1.5rem;
     }
-
-    .content-1::after{
+    .content-1::after {
         content: "\a";
         white-space: pre;
     }
