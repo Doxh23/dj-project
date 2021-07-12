@@ -44,6 +44,10 @@ hr {
     display: inline-block;
 }
 
+.filter{
+    filter:opacity(0.3);
+}
+
 .signature {
     margin-left: 68px;
     margin-top: 10px;
@@ -119,6 +123,7 @@ hr {
 
 .music-logo {
     font-size: 2.3rem;
+    color:#8121e0;
 }
 /* ------------ */
 /*  FLEX RELEASE */
@@ -268,6 +273,10 @@ hr {
         font-size: 1.2rem;
     }
 
+    .filter{
+        filter:opacity(0.3);
+    }
+
     .flex-signature{
         display: flex;
         max-width: 680px;
@@ -352,6 +361,7 @@ hr {
         font-size: 2rem;
         margin-top: 5px;
         margin-left: 30px;
+        color:#8121e0;
     }
     /* ------------ */
     /*  FLEX RELEASE */
@@ -501,7 +511,10 @@ hr {
     }
     .logos {
         font-size: 1.2rem;
-        
+    }
+
+    .filter{
+        filter:opacity(0.3);
     }
     .signature {
         margin-left: 365px;
@@ -575,6 +588,7 @@ hr {
     }
     .music-logo {
         font-size: 2.3rem;
+        color:#8121e0;
     }
     /* ------------ */
     /*  FLEX RELEASE */
