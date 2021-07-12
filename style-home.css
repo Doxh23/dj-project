@@ -20,23 +20,31 @@ main{
 }
 
 .about__item{
-    width: 575px;
+    width: 550px;
 }
 
 .about__img{
-    width: 484px;
-    border-radius: 5px;
+    width: 450px;
+    border-radius: 10px;
 }
 
 .about__title{
-    margin-top: -55px;
+    display: inline-block;
+    margin-top: 5px;
     font-size: 1.8rem;
+    margin-bottom: -10px;
 }
 
 .about__p{
     font-size: 1rem;
+    font-weight: 200;
 }
+
 
 .about__q{
     font-size:1.6rem;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
