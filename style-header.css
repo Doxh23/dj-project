@@ -1,7 +1,7 @@
 .header__header {
     background-image: url("assets/banner-img.jpg");
     background-position: center;
-    /* background-repeat: cover; */
+    background-repeat: cover;
     background-size:auto;
     width: 100vw;
     min-height: 500px;
@@ -193,21 +193,12 @@ header{
   display: flex;
   flex-direction: column;
 }
-.logo-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly
 
-
-}
-
-
-}
-.logo img{
+/* .logo-nav img{
     width: 10px;
     height: 20px;
 
-}
+} */
 .logo{
     margin-top: 20px;
     
@@ -220,7 +211,7 @@ header{
 
 }
 
-header li {
+header .nav-header li,header .title-nav li{
 list-style-type: none;
 display: inline;
 font-size: 1.5rem;
@@ -317,7 +308,7 @@ font-weight: 600;
         visibility: visible;
     }
     }
-    @media only screen and (min-width: 480px) and (max-width: 780px){
+    @media only screen and (min-width: 480px) and (max-width: 768px){
         .nav-gsm { display: flex;
 
         }
