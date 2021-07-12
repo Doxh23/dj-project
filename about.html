@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style-header.css">
+    <link rel="stylesheet" href="style-footer.css">
     <title>About us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +14,63 @@
     <script src="https://kit.fontawesome.com/ce03561295.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header__header">
+        <img class="nav-mobile-logo" src="assets/logo.png " alt="">
+        <i class="fas fa-ellipsis-v points"></i>
+        <a id="haut"></a>
+        <nav role="navigation" class="nav-gsm">
+    
+            <div id="menuToggle">
+              
+              <input type="checkbox" />
+              
+              <span></span>
+              <span></span>
+              <span></span>
+              
+             
+              <ul id="menu">
+                <a href="home.html" target="_blank"><li>Home</li></a>
+                <a href="about.html" target="_blank"><li>About</li></a>
+                <a href="discography.html" target="_blank"><li>Discography</li></a>
+                <a href="tours.html" target="_blank"><li>TOURS</li></a>
+                
+              </ul>
+            </div>
+          </nav>
+
+        <nav class="nav-header">
+        <div class="logo-nav">
+            <div class="logo"><img src="assets/logo.png" alt=""></div>
+            <nav class="nav"><ul>
+                <li class="nav-site"><a href="about.html">ABOUT</a></li>
+                <li class="nav-site"><a href="discography.html">DISCOGRAPHY</a></li>
+                <li class="nav-site"><a href="tours.html">TOURS</a></li>
+                <li class="nav-site"><a href="gallery.html">PHOTOS</a></li>
+                <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-facebook-f social"></i></a></li>
+                <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-instagram social"></i></a></li>
+                <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-twitter social"></i></a></li>
+                <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-youtube social"></i></a></li>
+                <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fas fa-bars hamburger"></i></a></li>
+            </ul></nav>
+        </div>
+    </nav>
+        
+        <div class="header-title">
+            <div class="title-title">
+            <h2>GALLERY #1
+            </h2>
+        </div>
+            <div class="title-nav">
+            <ul>
+                <li>HOME</li>
+                <li class="dot"><i class="fas fa-circle dot"></i></li>
+                <li>PAGE</li>
+                <li class="dot"><i class="fas fa-circle dot"></i></li>
+                <li class="title-nav-current-page">GALLERY #1</li>
+            </ul>
+            </div>
+        </div>
 
     </header>
     <main>
@@ -21,9 +79,11 @@
         <div class="item-contact">
             <h2>DJ Angerone</h2>
             <hr class="filter">
+            
             <p class="bottom contact-p"><i class="fas fa-phone-alt filter"></i><span class="padding small-margin-r">1-800-123-1234</span> 
                 <i class="fas fa-envelope filter"></i><span class="padding">info@demolink.org</span>
             </p>
+       
                 <p class="bottom logos-position">
                     <i class="fab fa-facebook-f right-m logos"></i>
                     <i class="fab fa-instagram  right-m logos"></i>
@@ -147,8 +207,28 @@ vitae, tristique senectus et netus et malesuada fames
 
 </section>
 </main>
-<footer>
-
+<footer class="footer">
+    <div class=footer-text>
+    <img src="assets/logo.png" alt="">
+    
+    <ul>
+        <li class="footer-nav"><a href="about.html">ABOUT</a></li>
+        <li class="footer-nav"><a href="discography.html">DISCOGRAPHY</a></li>
+        <li class="footer-nav"><a href="tours.html">TOURS</a></li>
+        <li class="footer-nav"><a href="gallery.html">PHOTOS</a></li>
+    </ul>
+    <ul>
+        <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-facebook-f social-footer"></i></a></li>
+        <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-instagram social-footer"></i></a></li>
+        <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-twitter social-footer"></i></a></li>
+        <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-youtube social-footer"></i></a></li>
+        <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-pinterest-p social-footer"></a></i></li>
+    </ul>
+    <p class="copyright"><i class="far fa-copyright fleche"></i> 2021 DJ Angerone. Privacy Policy</p>
+</div>
+<div class="button-footer">
+    <a href="#haut"> <button><i class="fas fa-chevron-up"></i></button></a>
+</div>
 </footer>
 </body>
 </html>
