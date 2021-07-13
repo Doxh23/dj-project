@@ -1,51 +1,48 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 62%;
 }
 
-main{
-    margin:auto;
+main {
+    margin: auto;
     max-width: 100%;
 }
 
 /* SECTION ABOUT */
-.about{
+
+.about {
     margin-bottom: 100px;
 }
-.about__container{
-    display:flex;
+
+.about__container {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     max-width: 1150px;
-    margin:auto;
+    margin: auto;
 }
 
-.about__item{
+.about__item {
     width: 550px;
 }
 
-.about__img{
+.about__img {
     width: 465px;
     border-radius: 10px;
 }
 
-.about__title{
+.about__title {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: -10px;
 }
 
-.about__p{
-    font-size: 1rem;
-    font-weight: 200;
-}
 
-
-.about__q{
-    font-size:1.6rem;
+.about__q {
+    font-size: 1.6rem;
     padding: 15px;
     display: inline-block;
     margin-top: 5px;
@@ -54,22 +51,99 @@ main{
 
 /* SECTION DISCOGRAPHY */
 
-.latest{
-   background: url("logos/latest-release-background.jpg");
-   height: 500px;
-   background-size: cover;
-   text-align: center;
+.latest {
+    background: url("logos/latest-release-background.jpg");
+    height: 450px;
+    background-size: cover;
+    text-align: center;
 }
 
-.latest__title{
-    
+.latest__title {
     display: inline-block;
     margin-top: 120px;
-    color:white;
-    
+    color: white;
 }
+
+.latest__button {
+    margin-top: 30px;
+    background-color: #8121e0;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* RELEASE */
+
+.center {
+    text-align: center;
+}
+.h2-title {
+    display: inline-block;
+    margin-bottom: 76px;
+    margin-top: 122px;
+}
+
+
+.release-p1 {
+    margin-bottom: 65px;
+}
+
+.margin-top {
+    margin-top: -70px;
+}
+
+
+.content-1::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.container-release {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto;
+}
+.item-release {
+    margin-right: 30px;
+    margin-bottom: 170px;
+}
+
+.item-release img {
+    width: 350px;
+}
+
+.light-p {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.release-p2 {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 1.25rem;
+    letter-spacing: 0.16rem;
+}
+
+
 /* TITRES */
 
-.title-2{
+.title-2 {
     font-size: 1.8rem;
+}
+
+.title-3 {
+    font-size: 1.4rem;
+}
+
+/* PARAGRAPHES */
+
+.p__size{
+    font-size: 1rem;
+    font-weight: 200; 
 }
