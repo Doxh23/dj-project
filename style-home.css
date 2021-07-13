@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 480px) {
     body {
         margin: 0;
@@ -75,7 +76,7 @@
     }
     .h2-title {
         display: inline-block;
-        margin-bottom: 76px;
+        margin-bottom: 0px;
         margin-top: 122px;
     }
     .release-p1 {
@@ -254,6 +255,11 @@
     .margin-top{
         margin-top: 30px;
     }
+
+    .m-top{
+        margin-top: 30px;
+    }
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
@@ -544,6 +550,9 @@
         margin-top: 30px;
     }
 
+    .m-top{
+        margin-top: 30px;
+    }
 
 
 }
@@ -552,7 +561,7 @@
     body {
         margin: 0;
         padding: 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins';
         font-size: 62%;
     }
     
@@ -638,7 +647,7 @@
     
     .h2-title {
         display: inline-block;
-        margin-bottom: 76px;
+        margin-bottom: 80px;
         margin-top: 122px;
     }
     
