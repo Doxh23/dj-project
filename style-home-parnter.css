@@ -1,0 +1,68 @@
+.partners{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/homepage-sponsors-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.partners i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    filter: opacity(0.6);
+}
+
+.partners .title-partner{
+    font-size: 4rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.partners p{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    opacity: 0.4;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: relative;
+    
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .stumbleupon {
+        display: none;
+    }
+    .joomla {
+        display: none;
+    }
+    .partners i{
+        margin-left: 30px;
+        margin-right:0;
+    }
+}
+    @media only screen and (max-width: 480px){
+    .stumbleupon {
+        display: none;
+    }
+    .joomla{
+        display: none;
+    }
+    .drupal {
+        display: none;
+    }
+    .partners i{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .partners .title-partner {
+        font-size: 2rem;
+    }
+    .partners p{
+        margin-left: 20px;
+    }

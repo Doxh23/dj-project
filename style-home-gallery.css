@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+.home-gallery-1 {
+    width: 33%;
+}
+.home-gallery-2 {
+    width: 50%;
+}
+.home-gallery-1 img{
+    width: 100%;
+    height: 100%;
+}
+.home-gallery-2 img{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 480px){
+    .home-gallery-1 {
+        width: 100%;
+    }
+    .home-gallery-2 {
+        width: 100%;
+    }
