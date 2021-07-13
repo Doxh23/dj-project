@@ -640,7 +640,6 @@
     }
     
     /* RELEASE */
-    
     .center {
         text-align: center;
     }
@@ -673,7 +672,7 @@
     
     .item-release {
         margin-right: 30px;
-        margin-bottom: 170px;
+        margin-bottom: 100px;
     }
     
     .item-release img {
