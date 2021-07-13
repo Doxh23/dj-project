@@ -13,7 +13,9 @@ main {
 /* SECTION ABOUT */
 
 .about {
+    margin-top: 50px;
     margin-bottom: 100px;
+    
 }
 
 .about__container {
@@ -23,6 +25,7 @@ main {
     align-items: center;
     max-width: 1150px;
     margin: auto;
+    position: relative;
 }
 
 .about__item {
@@ -56,7 +59,9 @@ main {
     height: 450px;
     background-size: cover;
     text-align: center;
+    position: relative;
 }
+
 
 .latest__title {
     display: inline-block;
@@ -128,6 +133,48 @@ main {
     margin-top: -20px;
     font-size: 1.25rem;
     letter-spacing: 0.16rem;
+}
+
+/* LINES */
+
+.about__box{
+    position: absolute;
+    border:2px;
+    background-color: #8121e0;
+    padding: 10px 10px;
+    height: 25px;
+    top:-20px;
+    left: 50px;;
+}
+
+.about__box__light-1{
+    position: absolute;
+    border:2px;
+    background-color: #8121e0;
+    padding: 5px 5px;
+    height: 25px;
+    left:440px;
+    bottom: -15px;
+}
+
+.about__box__light-2{
+    position: absolute;
+    border:2px;
+    background-color: #8121e0;
+    padding: 5px 5px;
+    height: 25px;
+    left:460px;
+    bottom: -15px;
+}
+
+.latest__box{
+    position: absolute;
+    border:2px;
+    background-color: #8121e0;
+    padding: 10px 10px;
+    height: 25px;
+    margin-top: -20px;
+    margin-left: 1200px;
 }
 
 
