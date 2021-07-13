@@ -6,6 +6,83 @@
     font-family: Poppins;
 }
 
+.Home__Tickets {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .Home__Tickets h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Home__Tickets h3 {
+    font-size: 1rem;
+    font-weight: 200;
+    font-display: capitalize;
+}
+
+.Home__Tickets h4 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.Home__Tickets h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.Tickets__Contener {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Tickets__Ticket {
+    margin: auto;
+    width: auto;
+}
+
+.Ticket__Price {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.Tickets__Ticket p {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+.Ticket__Center {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #F2F2F2
+}
+
+.Home__Tickets a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 5rem;
+    border: 1px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.Home__Tickets a:hover {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 5rem;
+    background-color: #8121e0;
+    border-style: solid;
 }
