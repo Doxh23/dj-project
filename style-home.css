@@ -190,7 +190,7 @@
     
     .about {
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
     
     .about__container {
@@ -210,7 +210,7 @@
     .about__img {
         width: 270px;
         border-radius: 6px;
-        margin-top: -160px;
+        margin-top: -140px;
         margin-right: 20px;
     }
     
@@ -240,7 +240,7 @@
     
     .latest__title {
         display: inline-block;
-        margin-top: 80px;
+        margin-top: 70px;
         color: white;
     }
     
@@ -266,7 +266,7 @@
     .h2-title {
         display: inline-block;
         margin-bottom: 76px;
-        margin-top: 122px;
+        margin-top: 60px;
     }
     
     .release-p1 {
@@ -285,17 +285,22 @@
     .container-release {
         display: flex;
         flex-wrap: wrap;
-        max-width: 1140px;
-        margin: auto;
+        max-width: 768px;
+        margin-left: 45px;
+        margin-right: 45px;
+        /*margin: auto;
+        justify-content: center;
+        align-items: center;*/
     }
     
     .item-release {
         margin-right: 30px;
-        margin-bottom: 170px;
+        margin-bottom: 40px;
+        max-width: 350px;
     }
     
     .item-release img {
-        width: 350px;
+        width: 300px;
     }
     
     .light-p {
@@ -370,6 +375,10 @@
         font-weight: 200;
     }
 
+    .release-p1{
+        margin-bottom:35px;
+    }
+   
 
 
 }
@@ -565,6 +574,11 @@
     /* PARAGRAPHES */
     
     .p__size {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    .release-p1{
         font-size: 1rem;
         font-weight: 200;
     }
