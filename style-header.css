@@ -202,12 +202,11 @@ header{
 }
 
 
-}
-.logo img{
+/*.logo img{
     width: 10px;
     height: 20px;
 
-}
+}*/
 .logo{
     margin-top: 20px;
     
@@ -220,7 +219,7 @@ header{
 
 }
 
-header li {
+header .nav-header li, header .title-nav li {
 list-style-type: none;
 display: inline;
 font-size: 1.5rem;
@@ -293,7 +292,7 @@ font-weight: 600;
 
 
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 480px){
         .header__header{
             min-height: 275px;
         max-height: 450px;
@@ -317,7 +316,7 @@ font-weight: 600;
         visibility: visible;
     }
     }
-    @media only screen and (min-width: 360px) and (max-width: 780px){
+    @media only screen and (min-width: 480px) and (max-width: 768px){
         .nav-gsm { display: flex;
 
         }

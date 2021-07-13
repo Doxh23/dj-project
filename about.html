@@ -1,154 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style-header.css">
+    <link rel="stylesheet" href="style-footer.css">
     <title>About us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ce03561295.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="header">
+    <header class="header__header">
+        <img class="nav-mobile-logo" src="assets/logo.png " alt="">
+        <i class="fas fa-ellipsis-v points"></i>
+        <a id="haut"></a>
+        <nav role="navigation" class="nav-gsm">
+
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+                <ul id="menu">
+                    <a href="home.html" target="_blank">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html" target="_blank">
+                        <li>About</li>
+                    </a>
+                    <a href="discography.html" target="_blank">
+                        <li>Discography</li>
+                    </a>
+                    <a href="tours.html" target="_blank">
+                        <li>TOURS</li>
+                    </a>
+
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="nav-header">
+            <div class="logo-nav">
+                <div class="logo"><img src="assets/logo.png" alt=""></div>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-site"><a href="about.html">ABOUT</a></li>
+                        <li class="nav-site"><a href="discography.html">DISCOGRAPHY</a></li>
+                        <li class="nav-site"><a href="tours.html">TOURS</a></li>
+                        <li class="nav-site"><a href="gallery.html">PHOTOS</a></li>
+                        <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-facebook-f social"></i></a></li>
+                        <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-instagram social"></i></a></li>
+                        <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-twitter social"></i></a></li>
+                        <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-youtube social"></i></a></li>
+                        <li class="nav-icon"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fas fa-bars hamburger"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+
+        <div class="header-title">
+            <div class="title-title">
+                <h2>ABOUT
+                </h2>
+            </div>
+            <div class="title-nav">
+                <ul>
+                    <li>HOME</li>
+                    <li class="dot"><i class="fas fa-circle dot"></i></li>
+                    <li>PAGE</li>
+                    <li class="dot"><i class="fas fa-circle dot"></i></li>
+                    <li class="title-nav-current-page">ABOUT</li>
+                </ul>
+            </div>
+        </div>
 
     </header>
     <main>
-<section class="contact">
-    <div class="container-contact">
-        <div class="item-contact">
-            <h2>DJ Angerone</h2>
-            <hr class="filter">
-            <p class="bottom contact-p"><i class="fas fa-phone-alt filter"></i><span class="padding small-margin-r">1-800-123-1234</span> 
-                <i class="fas fa-envelope filter"></i><span class="padding">info@demolink.org</span>
-            </p>
-                <p class="bottom logos-position">
-                    <i class="fab fa-facebook-f right-m logos"></i>
-                    <i class="fab fa-instagram  right-m logos"></i>
-                    <i class="fab fa-twitter right-m logos"></i>
-                    <i class="fab fa-youtube right-m logos"></i>
-                </p>
-                <p class="light-p bottom p-tablet">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                </p>
-                <p class="italic-p p-tablet">
-                    Morbi tristique senectus et netus et malesuada fames
-ac turpis egestas. Vestibulum tortor quam, feugiat
-vitae, tristique senectus et netus et malesuada fames
-                </p>
-                <div class="flex-signature">
-                <img src="assets/about-us-signature.png" alt="signature" class="signature">
+        <section class="contact">
+            <div class="container-contact">
+                <div class="item-contact">
+                    <h2>DJ Angerone</h2>
+                    <hr class="filter">
+
+                    <p class="bottom contact-p"><i class="fas fa-phone-alt filter"></i><span class="padding small-margin-r">1-800-123-1234</span>
+                        <i class="fas fa-envelope filter"></i><span class="padding">info@demolink.org</span>
+                    </p>
+
+                    <p class="bottom logos-position">
+                        <i class="fab fa-facebook-f right-m logos"></i>
+                        <i class="fab fa-instagram  right-m logos"></i>
+                        <i class="fab fa-twitter right-m logos"></i>
+                        <i class="fab fa-youtube right-m logos"></i>
+                    </p>
+                    <p class="light-p bottom p-tablet">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                    </p>
+                    <p class="italic-p p-tablet">
+                        Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, tristique senectus et netus et malesuada fames
+                    </p>
+                    <div class="flex-signature">
+                        <img src="assets/about-us-signature.png" alt="signature" class="signature">
+                    </div>
+
+                    <a href="https://becode.org/fr/" class="button">GET IN TOUCH</a>
+                </div>
+                <div class="item-contact">
+                    <img src="assets/about-us-dj-img.jpg" alt="image-dj" class="photo-bio">
+                </div>
+
             </div>
-               
-                <a href="https://becode.org/fr/" class="button">GET IN TOUCH</a>
-        </div>
-        <div class="item-contact">
-            <img src="assets/about-us-dj-img.jpg" alt="image-dj" class="photo-bio">
-        </div>
+        </section>
+        <section class="music">
+            <div class="center">
+                <h2 class="h2-title">Discover DJ Angerone's Music</h2>
+            </div>
+            <div class="container-music">
 
-    </div>
-</section>
-<section class="music">
-    <div class="center"><h2 class="h2-title">Discover DJ Angerone's Music</h2></div>
-    <div class="container-music">
+                <div class="music-item">
+                    <i class="fas fa-music music-logo"></i>
+                    <div class="music-title">
+                        <h3>Concerts</h3>
+                    </div>
+                    <div class="music-p">
+                        <p class="light-p light-p-size">Morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <i class="fas fa-user-friends music-logo"></i>
+                    <div class="music-title">
+                        <h3>Festivals</h3>
+                    </div>
+                    <div class="music-p">
+                        <p class="light-p light-p-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <i class="fas fa-headphones music-logo"></i>
+                    <div class="music-title">
+                        <h3>DJ Sets</h3>
+                    </div>
+                    <div class="music-p">
+                        <p class="light-p light-p-size">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+                        </p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <i class="fas fa-record-vinyl music-logo"></i>
+                    <div class="music-title">
+                        <h3>Mixes</h3>
+                    </div>
+                    <div class="music-p">
+                        <p class="light-p light-p-size">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <i class="fas fa-podcast music-logo"></i>
+                    <div class="music-title">
+                        <h3>Podcasts</h3>
+                    </div>
+                    <div class="music-p">
+                        <p class="light-p light-p-size">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <i class="fas fa-compact-disc music-logo"></i>
+                    <div class="music-title">
+                        <h3>Remixes</h3>
+                    </div>
+                    <div class="music-div-p">
+                        <p class="light-p music-p light-p-size">Sed ut persipciatis unde omnis iste natus error sit voluptatem accusantium.
+                        </p>
+                    </div>
+                </div>
 
-        <div class="music-item">
-            <i class="fas fa-music music-logo"></i>
-              <div class="music-title">
-                <h3>Concerts</h3>
-              </div>
-              <div class="music-p">
-                <p class="light-p light-p-size">Morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas.</p>
-                </div>
-        </div>
-        <div class="music-item">
-            <i class="fas fa-user-friends music-logo"></i>
-            <div class="music-title">
-                <h3>Festivals</h3>
-              </div>
-              <div class="music-p">
-                <p class="light-p light-p-size">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod.</p>
-                </div>
-        </div>
-        <div class="music-item">
-            <i class="fas fa-headphones music-logo"></i>
-            <div class="music-title">
-                <h3>DJ Sets</h3>
-              </div>
-              <div class="music-p">
-                <p class="light-p light-p-size">Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi.
-                </p>
-                </div>
-        </div>
-        <div class="music-item">
-            <i class="fas fa-record-vinyl music-logo"></i>
-            <div class="music-title">
-                <h3>Mixes</h3>
-              </div>
-              <div class="music-p">
-                <p class="light-p light-p-size">Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum.</p>
-                </div>
-        </div>
-        <div class="music-item">
-            <i class="fas fa-podcast music-logo"></i>
-            <div class="music-title">
-                <h3>Podcasts</h3>
-              </div>
-              <div class="music-p">
-                <p class="light-p light-p-size">Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia.</p>
-                </div>
-        </div>
-        <div class="music-item">
-            <i class="fas fa-compact-disc music-logo"></i>
-            <div class="music-title">
-                <h3>Remixes</h3>
-              </div>
-              <div class="music-div-p">
-                <p class="light-p music-p light-p-size">Sed ut persipciatis unde omnis iste 
-                    natus error sit voluptatem accusantium.
-                </p>
-                </div>
             </div>
 
-    </div>
+        </section>
+        <section class="release">
+            <div class="center">
+                <h2 class="h2-title">Latest Releases</h2>
+            </div>
+            <p class="small-p margin-top release-p1"><span class="content-1">Here are the most recent singles, EPs, and other releases that DJ Angerone has worked on. You </span> can stream and buy them on our website and a variety of digital stores.</p>
 
-</section>
-<section class="release">
- <div class="center"><h2 class="h2-title">Latest Releases</h2></div>
- <p class="small-p margin-top release-p1"><span class="content-1">Here are the most recent singles, EPs, and other releases that DJ Angerone has worked on. You </span>
-    can stream and buy them on our website and a variety of digital stores.</p>
+            <div class="container-release">
+                <div class="item-release">
+                    <img src="assets/dicography-album-cover-1.jpg" alt="album cover 1">
+                    <h3 class="release-title">Intense</h3>
+                    <p class="light-p light-p-size release-p2">2019</p>
+                </div>
+                <div class="item-release item-release-2">
+                    <img src="assets/dicography-album-cover-2.jpg" alt="album cover 2">
+                    <h3 class="release-title">My Space</h3>
+                    <p class="light-p light-p-size release-p2">2019</p>
+                </div>
+                <div class="item-release item-release-3 margin-right">
+                    <img src="assets/dicography-album-cover-3.jpg" alt="album cover 3">
+                    <h3 class="release-title">Trance Year Mix</h3>
+                    <p class="light-p light-p-size release-p2">2018</p>
+                </div>
 
-    <div class="container-release">
-        <div class="item-release">
-            <img src="assets/dicography-album-cover-1.jpg" alt="album cover 1">
-            <h3 class="release-title">Intense</h3>
-            <p class="light-p light-p-size release-p2">2019</p>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class=footer-text>
+            <img src="assets/logo.png" alt="">
+
+            <ul>
+                <li class="footer-nav"><a href="about.html">ABOUT</a></li>
+                <li class="footer-nav"><a href="discography.html">DISCOGRAPHY</a></li>
+                <li class="footer-nav"><a href="tours.html">TOURS</a></li>
+                <li class="footer-nav"><a href="gallery.html">PHOTOS</a></li>
+            </ul>
+            <ul>
+                <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-facebook-f social-footer"></i></a></li>
+                <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-instagram social-footer"></i></a></li>
+                <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-twitter social-footer"></i></a></li>
+                <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-youtube social-footer"></i></a></li>
+                <li class="social-li-footer"><a href="https://www.youtube.com/watch?v=yjNcXPtNQdE"><i class="fab fa-pinterest-p social-footer"></a></i>
+                </li>
+            </ul>
+            <p class="copyright"><i class="far fa-copyright fleche"></i> 2021 DJ Angerone. Privacy Policy</p>
         </div>
-        <div class="item-release item-release-2">
-            <img src="assets/dicography-album-cover-2.jpg" alt="album cover 2">
-            <h3 class="release-title">My Space</h3>
-            <p class="light-p light-p-size release-p2">2019</p>
+        <div class="button-footer">
+            <a href="#haut"> <button><i class="fas fa-chevron-up"></i></button></a>
         </div>
-        <div class="item-release item-release-3 margin-right">
-            <img src="assets/dicography-album-cover-3.jpg" alt="album cover 3">
-            <h3 class="release-title">Trance Year Mix</h3>
-            <p class="light-p light-p-size release-p2">2018</p>
-        </div>
-
-    </div>
-
-</section>
-</main>
-<footer>
-
-</footer>
+    </footer>
 </body>
+
 </html>
