@@ -196,20 +196,22 @@
     .about__container {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
-        max-width: 1150px;
+        max-width: 768px;
         margin: auto;
         position: relative;
     }
     
     .about__item {
-        width: 550px;
+        max-width: 384px;
     }
     
     .about__img {
-        width: 465px;
-        border-radius: 10px;
+        width: 270px;
+        border-radius: 6px;
+        margin-top: -160px;
+        margin-right: 20px;
     }
     
     .about__title {
@@ -219,7 +221,7 @@
     }
     
     .about__q {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         padding: 15px;
         display: inline-block;
         margin-top: 5px;
@@ -230,7 +232,7 @@
     
     .latest {
         background: url("logos/latest-release-background.jpg");
-        height: 450px;
+        height: 300px;
         background-size: cover;
         text-align: center;
         position: relative;
@@ -238,12 +240,12 @@
     
     .latest__title {
         display: inline-block;
-        margin-top: 120px;
+        margin-top: 80px;
         color: white;
     }
     
     .latest__button {
-        margin-top: 30px;
+        margin-top: 20px;
         background-color: #8121e0;
         border-radius: 5px;
         color: white;
@@ -310,7 +312,7 @@
     
     /* LINES */
     
-    .about__box {
+   /* .about__box {
         position: absolute;
         border: 2px;
         background-color: #8121e0;
@@ -349,12 +351,12 @@
         height: 25px;
         margin-top: -20px;
         margin-left: 1200px;
-    }
+    } */
     
     /* TITRES */
     
     .title-2 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     
     .title-3 {
@@ -364,7 +366,7 @@
     /* PARAGRAPHES */
     
     .p__size {
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 200;
     }
 
